@@ -19,13 +19,7 @@ class Transfer
   end
   
   def reverse_transfer
-    if valid?
-      @sender.balance -= amount
-      @receiver.balance += amount
-      @status = "closed"
-    else
-      
-    end
+    
   end
   
 end
